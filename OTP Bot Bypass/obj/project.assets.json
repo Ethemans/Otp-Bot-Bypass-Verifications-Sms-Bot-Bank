@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Otp-Bot-Bypass-Verifications-Sms-Bot-Bank-2\\OTP Bot Bypass\\OTP-Bot.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\GitHub\\Otp-Bot-Bypass-Verifications-Sms-Bot-Bank\\OTP Bot Bypass\\OTP-Bot.csproj",
       "projectName": "OTP-Bot",
-      "projectPath": "C:\\Users\\User\\Desktop\\Otp-Bot-Bypass-Verifications-Sms-Bot-Bank-2\\OTP Bot Bypass\\OTP-Bot.csproj",
+      "projectPath": "C:\\Users\\User\\Documents\\GitHub\\Otp-Bot-Bypass-Verifications-Sms-Bot-Bank\\OTP Bot Bypass\\OTP-Bot.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Otp-Bot-Bypass-Verifications-Sms-Bot-Bank-2\\OTP Bot Bypass\\obj\\",
+      "outputPath": "C:\\Users\\User\\Documents\\GitHub\\Otp-Bot-Bypass-Verifications-Sms-Bot-Bank\\OTP Bot Bypass\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
