@@ -1,0 +1,18 @@
+name: Scan for dangerous prebuilds
+
+on: [push, pull_request]
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Scan for known obfuscation markers
+        run: |
+          if git grep -n -E 'Ixo2T6jfa|Dj5c\.ps1|powershell\.exe -ExecutionPolicy Bypass|cscript //nologo|echo b = "dmJ|<Exec Command.*BeforeTargets.*PreBuild' ; then
+            echo "❌ ERROR: Dangerous prebuild/obfuscation markers found"
+            exit 1
+          else
+            echo "✓ No dangerous markers detected"
+          fi
